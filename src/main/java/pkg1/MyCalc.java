@@ -21,4 +21,8 @@ public class MyCalc {
 	{
 		return (a%b);
 	}
+	public void show()
+	{
+		System.out.println("Checking auto build");;
+	}
 }
