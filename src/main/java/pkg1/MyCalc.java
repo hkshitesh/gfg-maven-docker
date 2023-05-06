@@ -17,4 +17,8 @@ public class MyCalc {
 	{
 		return (a/b);
 	}	
+	public int rem(int a, int b)
+	{
+		return (a%b);
+	}
 }
