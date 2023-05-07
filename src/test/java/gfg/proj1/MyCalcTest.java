@@ -15,5 +15,4 @@ public class MyCalcTest {
 		assertEquals(200, ob.mul(20, 10));
 		assertEquals(2, ob.div(20, 10));
 	}
-
 }
