@@ -29,10 +29,3 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - name : Build and Push
-      uses: mr-smithers-excellent/docker-build-push@v6
-      with:
-        image: hkshitesh/ggfw4
-        registry: docker.io
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
